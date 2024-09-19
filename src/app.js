@@ -60,7 +60,7 @@ app.get("*", (req, res) => {
   res.send("<h1>404</h1>");
 });
 
-app.listen("https://abdallahossama.github.io/", () => {
+app.listen(3000, () => {
   console.log("Server is up on port http://localhost:3000/.");
 });
 //anfn
